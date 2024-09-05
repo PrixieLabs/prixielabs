@@ -1,6 +1,28 @@
 
 /* Media Queries */
 
+
+/* Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+
+      .quote-container {
+      
+     margin-top: 40%;
+   
+    }
+
+    .quote-line {
+      font-size: 7vw; /* Adjust font size for mobile */
+       margin-left: -10%;
+  }
+    .quote-line-by {
+ 
+  margin-left: -10%;
+}
+
+}
+
+
 /* Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
 
