@@ -1270,14 +1270,19 @@
       }
     }  
 
-    
-    /* Desktops ( min-width:1361px and max-width: 1920px) */
-    @media (min-width: 1361px) and (max-width: 1920px) {
+
+ @media (min-width: 1361px) and (max-width: 1600px) {
     
       .quote-container {
       
         margin-top: -5%;
        }
+ }
+    
+    /* Desktops ( min-width:1361px and max-width: 1920px) */
+    @media (min-width: 1361px) and (max-width: 1920px) {
+    
+     
    
 
       .ring-0 {
