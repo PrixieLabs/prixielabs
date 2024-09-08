@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /data
+Disallow: /docs
+Disallow: /js
+Disallow: /media
+Disallow: /css
+Disallow: /includes
+
+# Allow specific crawler access
+User-agent: Googlebot
+Disallow:
+
+# Sitemap location
+Sitemap: https://www.yoursite.com/sitemap.xml
