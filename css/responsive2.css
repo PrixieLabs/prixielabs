@@ -36,13 +36,7 @@
       height: 100px;
     }
 
-          .carousel{
-            scale: 0.5;
-      }
-
-      .carousel-2{
-            scale:0.5;
-      }
+     
 
     header {
       position: sticky;
@@ -60,11 +54,11 @@
       
     }
 
-      .carousel{
+      .carousel-item{
             scale: 0.5;
       }
 
-      .carousel-2{
+      .carousel-item-2{
             scale:0.5;
       }
     
