@@ -11,6 +11,15 @@
    
     }
 
+       .carousel-item{
+            scale: 0.7;
+      }
+
+      .carousel-item-2{
+            scale:0.7;
+      }
+    
+
     .quote-line {
       font-size: 7vw; /* Adjust font size for mobile */
        margin-left: -10%;
@@ -55,7 +64,7 @@
     }
 
       .carousel-item{
-            scale: 1;
+            scale: 0.7;
       }
 
       .carousel-item-2{
