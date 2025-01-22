@@ -1856,6 +1856,22 @@
           window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
         }
 </script>
+
+    <script>
+    // Called by hCaptcha when user completes the CAPTCHA
+    function setCaptchaResponse(token) {
+        document.getElementById('h-captcha-response').value = token;
+    }
+
+    // Prevent form submission if the hCaptcha is not completed
+    document.getElementById('myForm').addEventListener('submit', function (e) {
+        const captchaResponse = document.getElementById('h-captcha-response').value;
+        if (!captchaResponse) {
+            e.preventDefault(); // Prevent form submission
+            alert('Please complete the CAPTCHA.');
+        }
+    });
+</script>
     
    
 
